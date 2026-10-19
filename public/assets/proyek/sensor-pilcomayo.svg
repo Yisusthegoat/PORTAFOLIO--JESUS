@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Sensor de contaminación en Pilcomayo</title>
+  <desc id="desc">Ilustración conceptual de un sensor de monitoreo ambiental junto a un río.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e0f2fe"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient><linearGradient id="water" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs>
+  <rect width="800" height="480" rx="24" fill="url(#sky)"/>
+  <circle cx="129" cy="94" r="34" fill="#fde68a"/>
+  <path d="m0 251 138-124 116 111 101-91 159 125 132-131 154 118v114H0Z" fill="#99d5c1"/>
+  <path d="m0 294 171-95 129 96 136-67 164 83 200-87v151H0Z" fill="#5eae9c"/>
+  <path d="M342 251c-96 45 112 55 20 99s-139 30-155 130h383c-26-93-166-82-112-131s-98-59-74-98Z" fill="url(#water)"/>
+  <g fill="none" stroke="#bae6fd" stroke-width="5" stroke-linecap="round"><path d="M354 297h49m-65 43h74m-89 47h133"/></g>
+  <rect x="525" y="130" width="152" height="147" rx="18" fill="#fff" stroke="#0c4a6e" stroke-width="5"/>
+  <rect x="547" y="154" width="108" height="60" rx="9" fill="#e0f2fe"/>
+  <path d="m558 188 17-13 16 23 18-29 17 16h17" fill="none" stroke="#0284c7" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="567" cy="244" r="7" fill="#10b981"/>
+  <path d="M590 244h42M600 278v45" stroke="#0c4a6e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M549 275v57q0 27-39 27h-60v28" fill="none" stroke="#334155" stroke-width="6"/>
+  <rect x="436" y="370" width="28" height="37" rx="9" fill="#fff" stroke="#0369a1" stroke-width="4"/>
+  <path d="M578 106q23-22 46 0m-58-14q35-35 70 0" fill="none" stroke="#0284c7" stroke-width="5" stroke-linecap="round"/>
+  <rect x="35" y="367" width="323" height="88" rx="16" fill="#fff" fill-opacity=".94"/>
+  <text x="57" y="404" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#0c4a6e">PILCOMAYO</text>
+  <text x="57" y="432" font-family="Arial,sans-serif" font-size="16" fill="#475569">Monitoreo de contaminación</text>
+  <text x="773" y="458" text-anchor="end" font-family="Arial,sans-serif" font-size="13" fill="#0c4a6e">Ilustración conceptual</text>
+</svg>

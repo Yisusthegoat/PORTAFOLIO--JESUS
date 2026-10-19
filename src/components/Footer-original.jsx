@@ -41,9 +41,9 @@ function Footer() {
 
         {/* Ikon Sosmed - di tengah di mobile */}
         <div className="flex gap-3 order-2 md:order-none">
-          <a href="https://github.com/rissss21"><i className="ri-github-fill ri-2x"></i></a>
-          <a href="https://www.instagram.com/henryhans_"><i className="ri-instagram-fill ri-2x"></i></a>
-          <a href="https://www.youtube.com/@henryhans"><i className="ri-youtube-fill ri-2x"></i></a>
+          <a href="#"><i className="ri-github-fill ri-2x"></i></a>
+          <a href="#"><i className="ri-instagram-fill ri-2x"></i></a>
+          <a href="#"><i className="ri-youtube-fill ri-2x"></i></a>
         </div>
 
         {/* Dock - paling bawah di mobile */}

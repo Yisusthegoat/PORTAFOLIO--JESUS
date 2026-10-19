@@ -101,12 +101,33 @@ export const ChromaGrid = ({
           }
         >
           <div className="chroma-img-wrapper">
-            <img src={c.gambar} alt={c.title} loading="lazy" />
+            {c.gambar ? (
+              <img src={c.gambar} alt={c.title} loading="lazy" />
+            ) : (
+              <div className="flex min-h-48 flex-col items-center justify-center gap-4 rounded-xl bg-gradient-to-br from-sky-100 to-orange-50 p-6 text-center text-sky-900">
+                <i className={`${c.icon || 'ri-calendar-check-line'} text-5xl`} aria-hidden="true" />
+                <span className="text-lg font-semibold">{c.category || c.title}</span>
+              </div>
+            )}
           </div>
           <footer className="chroma-info">
             <h3 className="name">{c.title}</h3>
+            {c.status && <span className="my-2 w-fit rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-800">{c.status}</span>}
             {c.handle && <span className="handle">{c.handle}</span>}
             <p className="role">{c.subtitle}</p>
+            {c.demo && (
+              <a
+                href={c.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(event) => event.stopPropagation()}
+                className="mt-3 inline-flex items-center gap-2 break-all text-sm font-semibold text-sky-700 underline underline-offset-4 hover:text-sky-900"
+                aria-label={`Visitar ${c.title}`}
+              >
+                {c.demo.replace(/^https?:\/\//, '')}
+                <span aria-hidden="true">↗</span>
+              </a>
+            )}
             {c.location && <span className="location">{c.location}</span>}
           </footer>
         </article>

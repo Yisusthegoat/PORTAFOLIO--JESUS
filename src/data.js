@@ -1,220 +1,45 @@
-
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/html.png";
-import Tools13 from "/assets/tools/css.png";
-import Tools14 from "/assets/tools/ts.png";
-import Tools15 from "/assets/tools/vite.png";
-import Tools16 from "/assets/tools/python.png";
-import Tools17 from "/assets/tools/supabase.png";
-import Tools18 from "/assets/tools/postgresql.png";
-import Tools19 from "/assets/tools/anaconda.png";
-import Tools20 from "/assets/tools/kali-linux.png";
-import Tools21 from "/assets/tools/parrot-linux.png";
-
 export const listTools = [
-  {
-    id: 1,
-    gambar: Tools1,
-    nama: "Visual Studio Code",
-    ket: "Code Editor",
-    dad: "100",
-  },
-  {
-    id: 2,
-    gambar: Tools2,
-    nama: "React JS",
-    ket: "Framework",
-    dad: "200",
-  },
-  {
-    id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
-    dad: "300",
-  },
-  {
-    id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
-    dad: "400",
-  },
-  {
-    id: 5,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
-    dad: "500",
-  },
-  {
-    id: 6,
-    gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
-    dad: "600",
-  },
-  {
-    id: 7,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
-    dad: "700",
-  },
-  {
-    id: 8,
-    gambar: Tools10,
-    nama: "Canva",
-    ket: "Design App",
-    dad: "800",
-  },
-  {
-    id: 9,
-    gambar: Tools11,
-    nama: "Figma",
-    ket: "Design App",
-    dad: "900",
-  },
-  {
-    id: 10,
-    gambar: Tools12,
-    nama: "HTML",
-    ket: "Language",
-    dad: "1000",
-  },
-  {
-    id: 11,
-    gambar: Tools13,
-    nama: "CSS",
-    ket: "Language",
-    dad: "1100",
-  },
-  {
-    id: 12,
-    gambar: Tools14,
-    nama: "TypeScript",
-    ket: "Language",
-    dad: "1200",
-  },
-  {
-    id: 13,
-    gambar: Tools15,
-    nama: "Vite",
-    ket: "Framework",
-    dad: "1300",
-  },
-  {
-    id: 14,
-    gambar: Tools16,
-    nama: "Python",
-    ket: "Language",
-    dad: "1400",
-  },
-  {
-    id: 15,
-    gambar: Tools17,
-    nama: "Supabase",
-    ket: "Database",
-    dad: "1500",
-  },
-  {
-    id: 16,
-    gambar: Tools18,
-    nama: "PostgreSQL",
-    ket: "Database",
-    dad: "1600",
-  },
-  {
-    id: 17,
-    gambar: Tools19,
-    nama: "Anaconda",
-    ket: "Platform",
-    dad: "1700",
-  },
-  {
-    id: 18,
-    gambar: Tools20,
-    nama: "Kali Linux",
-    ket: "Operating System",
-    dad: "1800",
-  },
-  {
-    id: 19,
-    gambar: Tools21,
-    nama: "Parrot Linux",
-    ket: "Operating System",
-    dad: "1900",
-  },
+  { id: 1, gambar: '/assets/tools/python.png', nama: 'Python', ket: 'Lógica y desarrollo backend', dad: '0' },
+  { id: 2, gambar: '/assets/tools/postgresql.png', nama: 'PostgreSQL', ket: 'Datos y consultas SQL', dad: '60' },
+  { id: 3, gambar: '/assets/tools/js.png', nama: 'JavaScript', ket: 'Interacción en la web', dad: '120' },
+  { id: 4, gambar: '/assets/tools/reactjs.png', nama: 'React', ket: 'Interfaces por componentes', dad: '180' },
+  { id: 5, gambar: '/assets/tools/html.png', nama: 'HTML5', ket: 'Estructura de contenido', dad: '0' },
+  { id: 6, gambar: '/assets/tools/css.png', nama: 'CSS3', ket: 'Diseño adaptable', dad: '60' },
+  { id: 7, gambar: '/assets/tools/tailwind.png', nama: 'Tailwind CSS', ket: 'Estilos y composición visual', dad: '120' },
+  { id: 8, gambar: '/assets/tools/github.png', nama: 'GitHub', ket: 'Repositorios y versiones', dad: '180' },
+  { id: 9, gambar: '/assets/tools/vscode.png', nama: 'VS Code', ket: 'Entorno de desarrollo', dad: '0' },
+  { id: 10, gambar: '/assets/tools/vite.png', nama: 'Vite', ket: 'Desarrollo y compilación web', dad: '60' },
+  { id: 11, gambar: '/assets/tools/supabase.png', nama: 'Supabase', ket: 'Servicios de datos', dad: '120' },
 ];
-
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import CardCipJunin from "/assets/proyek/card-cip-junin.png";
+import AsistenciaMariscal from "/assets/proyek/asistencia-mariscal.svg";
+import SensorPilcomayo from "/assets/proyek/sensor-pilcomayo.svg";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
-    title: "E-Commerce Platform",
-    subtitle: "A modern e-commerce solution built with React and Node.js",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/username/ecommerce-platform",
-    demo: "https://ecommerce-demo.com"
+    gambar: CardCipJunin,
+    title: "CARD · CIP Junín",
+    subtitle: "Sitio web del Centro de Arbitraje y Resolución de Disputas del CIP Junín.",
+    fullDescription: "Proyecto web institucional del Centro de Arbitraje y Resolución de Disputas del Colegio de Ingenieros del Perú, Consejo Departamental de Junín. Reúne información sobre la institución, servicios, arbitraje, juntas de resolución de disputas, normativa y acceso a mesa de partes.",
+    demo: "https://www.cip-junin.org.pe/card"
   },
   {
     id: 2,
-    gambar: Proyek2,
-    title: "Task Management App",
-    subtitle: "A collaborative task management application with real-time updates",
-    tech: ["Vue.js", "Firebase", "Tailwind"],
-    github: "https://github.com/username/task-manager",
-    demo: "https://task-manager-demo.com"
+    gambar: AsistenciaMariscal,
+    title: "Sistema de asistencia · Mariscal Castilla",
+    subtitle: "Sistema de asistencia para el colegio Mariscal Castilla, desarrollado de forma local.",
+    fullDescription: "Sistema de asistencia desarrollado para el colegio Mariscal Castilla. El proyecto se ejecuta en un entorno local y no cuenta con una URL pública.",
+    status: "Proyecto local",
+    category: "Gestión de asistencia"
   },
   {
     id: 3,
-    gambar: Proyek3,
-    title: "Weather Dashboard",
-    subtitle: "Interactive weather dashboard with data visualization",
-    tech: ["JavaScript", "Chart.js", "API"],
-    github: "https://github.com/username/weather-dashboard",
-    demo: "https://weather-dashboard-demo.com"
-  },
-  {
-    id: 4,
-    gambar: Proyek4,
-    title: "Social Media Analytics",
-    subtitle: "Analytics platform for social media performance tracking",
-    tech: ["Python", "Django", "PostgreSQL"],
-    github: "https://github.com/username/social-analytics",
-    demo: "https://social-analytics-demo.com"
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    title: "Chat Application",
-    subtitle: "Real-time chat application with WebSocket support",
-    tech: ["React", "Node.js", "Socket.io"],
-    github: "https://github.com/username/chat-app",
-    demo: "https://chat-demo.com"
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    title: "Portfolio Website",
-    subtitle: "Personal portfolio website with modern design",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/username/portfolio",
-    demo: "https://portfolio-demo.com"
+    gambar: SensorPilcomayo,
+    title: "Sensor de contaminación · Pilcomayo",
+    subtitle: "Sistema de sensores para detectar contaminación en el río de Pilcomayo.",
+    fullDescription: "Proyecto de un sistema de sensores para detectar contaminación en el río de Pilcomayo. Orientado al monitoreo ambiental del agua, sin una URL pública disponible.",
+    status: "Sin enlace público",
+    category: "Monitoreo ambiental"
   },
 ];
